@@ -1,9 +1,7 @@
-# Webots Animation Template
+# Lane Follower in Webots
 
-[![Webots Badge](https://badgen.net/badge/icon/Preview%20simulation?label=Webots)](https://cyberbotics.github.io/webots-animation-template/master)
+[![Webots Badge](https://badgen.net/badge/icon/Preview%20simulation?label=Webots)](https://lukicdarkoo.github.io/webots-example-lane-follower/master)
 
-This example shows how to generate Webots animation previews in CI using [Webots Animation](https://github.com/marketplace/actions/webots-animation) GitHub Action.
-You can preview the animation for the current project from https://cyberbotics.github.io/webots-animation-template/master or by clicking the badge above.
-Direct links to specific animations are also possible:
-- https://cyberbotics.github.io/webots-animation-template/master/tutorial_1.html
-- https://cyberbotics.github.io/webots-animation-template/master/tutorial_6.html
+This a very simple example of Tesla 3 following the lanes in the Webots robot simulator.
+
+![Tesla 3 Lane Tracking](assets/preview.gif)
