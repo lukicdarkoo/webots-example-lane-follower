@@ -8,4 +8,4 @@ init: |
 animation:
   worlds:
     - file: worlds/city.wbt
-      duration: 5
+      duration: 12
