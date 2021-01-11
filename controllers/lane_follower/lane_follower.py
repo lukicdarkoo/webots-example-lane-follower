@@ -28,7 +28,7 @@ def regulate(tesla, camera):
     largest_contour_center = cv2.moments(largest_contour)
     center_x = int(largest_contour_center['m10'] / largest_contour_center['m00'])
 
-    # Find error (the lance distance from target)
+    # Find error (the lane distance from the target distance)
     error = center_x - 120
     tesla.setSteeringAngle(error * CONTROL_COEFFICIENT)
 
